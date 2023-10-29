@@ -1,0 +1,32 @@
+// Following the 7-1 arch, can be found here - https://sass-guidelin.es/#the-7-1-pattern
+// Following BEM naminc convention, can be found here - http://getbem.com/introduction/
+// All imports go here
+
+// Base
+@import "base/base";
+@import "base/typography";
+
+// Components
+@import "components/toggle";
+@import "components/carousel";
+@import "components/accordion";
+@import "components/card";
+
+// Layout
+@import "layout/nav";
+@import "layout/page";
+@import "layout/heading";
+@import "layout/quote";
+@import "layout/footer";
+
+// Pages
+@import "pages/about";
+@import "pages/contact";
+@import "pages/work";
+
+// Themes
+
+// Utils
+
+// Vendors
+@import "vendor/font-awesome"
